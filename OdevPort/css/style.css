@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #146c94;
+}
+
+.navbar {
+  background-color: #146c94;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 75px;
+}
+
+.myhead {
+  text-align: center;
+  margin-top: 50px;
+  color: #146c94;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.fa-brands {
+  color: #afd3e2;
+  margin-left: 10px;
+}
+
+body {
+  background-image: url(https://images.prismic.io/oplog-site/6009b0ff-70ba-44a7-9669-ee0c27e93ed4_Untitled+design+%2824%29.png?auto=compress%2Cformat&fit=max&w=2048);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.mybody {
+  width: 80%;
+  background-color: #f6f1f1;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 100px;
+  padding: 20px;
+  color: #146c94;
+  border-radius: 20px;
+}
+
+.orion {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.barpos {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.restoway {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.ceprapor {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.mybody img {
+  height: 200px;
+  width: auto;
+}
+
+.altimg:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.btn {
+  outline: #afd3e2;
+  background-color: #afd3e2;
+  color: #146c94;
+}
+
+.btn:hover {
+  outline: #afd3e2;
+  background-color: #146c94;
+  color: #afd3e2;
+}
+
+.active {
+  color: #afd3e2;
+}
+
+.altimg {
+  margin-right: 7px;
+}
+iframe {
+  border-radius: 20px;
+}
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img {
+    height: 40px;
+    width: 60px;
+  }
+  .mybody {
+    width: 90%;
+  }
+  .altimg {
+    height: 100px !important;
+    width: auto !important;
+  }
+  p {
+    font-size: 10px !important;
+  }
+  .fa-brands {
+    font-size: 20px !important;
+  }
+  h1 {
+    font-size: 16px !important;
+  }
+  h2 {
+    font-size: 12px !important;
+  }
+  h3 {
+    font-size: 9.5px !important;
+  }
+  h4 {
+    font-size: 8px !important;
+  }
+  iframe {
+    width: auto !important;
+    height: auto !important;
+  }
+}
